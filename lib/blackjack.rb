@@ -37,7 +37,7 @@ def hit? (card_number)
       deal_card
       display_card_total
   else
-
+      display_card_total
   end
 
 end
