@@ -34,6 +34,8 @@ def hit?(card_number)
 
   until user_input == 'h' || user_input == 's'
     invalid_command
+    prompt_user
+    user_input = get_user_input
     if user_input == 'h'
       deal_card
       display_card_total(card_number + initial_round)
