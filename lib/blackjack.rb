@@ -29,13 +29,14 @@ def initial_round
 end
 
 def hit?(card_number)
-  prompt_user
-  user_input = get_user_input
-  until user_input == 'h'|| user_input == 's'
+  until card_number > 21
+    prompt_user
+    user_input = get_user_input
+    
     invalid_command
     if user_input == 'h'
-    deal_card
-    display_card_total(card_number)
+    tota
+
     else
     display_card_total(card_number)
     end
