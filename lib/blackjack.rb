@@ -31,10 +31,10 @@ end
 def hit?(card_number)
   prompt_user
   user_input = get_user_input
-  
-  until user_input == 'h' || user_input == 's' 
+
+  until user_input == 'h' || user_input == 's'
     invalid_command
-    
+
   end
 end
 
