@@ -29,7 +29,16 @@ def initial_round
 end
 
 def hit? (card_number)
+  prompt_user
   get_user_input
+  until get_user_input == 'h' || get_user_input == 's'
+    invalid_command
+    if get_user_input == 'h'
+      deal_card
+      display_card_total
+  else
+
+  end
 
 end
 
