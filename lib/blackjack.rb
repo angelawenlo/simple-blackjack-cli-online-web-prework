@@ -35,7 +35,10 @@ def hit?(card_number)
   until user_input == 'h' || user_input == 's'
     invalid_command
     if user_input == 'h'
-      deal_card.to_i
+      deal_card
+
+    else
+      display_card_total(card_number)
     end
   end
 
