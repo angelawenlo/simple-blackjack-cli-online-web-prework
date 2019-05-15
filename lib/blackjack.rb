@@ -39,7 +39,7 @@ def hit?(card_number)
   end
   if user_input == 'h'
       card_number += deal_card
-  else
+  elsif user_input == 's'
       card_number
   end
 end
