@@ -29,7 +29,7 @@ def initial_round
 end
 
 def hit? (card_number)
-  
+  get_user_input
 
 end
 
