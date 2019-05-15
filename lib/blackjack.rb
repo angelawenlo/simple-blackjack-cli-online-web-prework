@@ -28,7 +28,7 @@ def initial_round
   first_round
 end
 
-def hit? (card_number)
+def hit?(card_number)
   prompt_user
   user_input = get_user_input
   until user_input == 'h'|| user_input == 's'
