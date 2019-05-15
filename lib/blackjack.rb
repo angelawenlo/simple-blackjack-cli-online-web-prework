@@ -40,7 +40,6 @@ def hit? (card_number)
       display_card_total
     end
   end
-
 end
 
 def invalid_command
