@@ -32,14 +32,6 @@ def hit?(card_number)
   until card_number > 21
     prompt_user
     user_input = get_user_input
-    
-    invalid_command
-    if user_input == 'h'
-    tota
-
-    else
-    display_card_total(card_number)
-    end
   end
 end
 
