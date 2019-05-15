@@ -39,7 +39,7 @@ def hit?(card_number)
   end
   if user_input == 'h'
       deal_card
-      display_card_total(card_number + initial_round)
+      display_card_total(card_number)
   else
       display_card_total(card_number)
   end
