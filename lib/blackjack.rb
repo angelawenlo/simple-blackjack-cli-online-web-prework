@@ -35,7 +35,6 @@ def hit?(card_number)
   until user_input == 'h' || user_input == 's'
     invalid_command
   end
-  end
 end
 
 def invalid_command
