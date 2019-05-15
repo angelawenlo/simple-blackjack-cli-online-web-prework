@@ -35,9 +35,9 @@ def hit? (card_number)
     invalid_command
     if get_user_input == 'h'
       deal_card
-      display_card_total
+      display_card_total(card_number)
   else
-      display_card_total
+      display_card_total(card_number)
     end
   end
 end
